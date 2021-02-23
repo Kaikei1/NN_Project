@@ -8,13 +8,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-TBD
+A working python environment should be installed on the machine used for this task. (Preferably latest version) 
 
 ### Data Preprocessing
 
-
+The data required for preprocessing should be in .conll format. 
 
 
 ## Deployment
