@@ -1,9 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Feb 20 13:43:26 2021
 
-@author: Nicho
-"""
+
 import sys
 import argparse
 def extract_info(file,new_filename):
