@@ -1,7 +1,7 @@
-
-
 import sys
 import argparse
+
+
 def extract_info(file,new_filename):
     with open(file) as f:
         with open(new_filename,"w") as s:
