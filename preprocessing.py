@@ -58,7 +58,7 @@ def main():
     parser.add_argument('filename',help='name for .tsv and .info file')
     args=parser.parse_args()
     if not args.conll_file.endswith('.conll'):
-        print('Error! first argument has the wrong type! should be .conll file')
+        print('Error! First argument has the wrong type! Should be .conll file')
         sys.exit()
     extract_info(args.conll_file,args.filename+'.tsv')
     create_info_file(args.filename+'.tsv',args.filename+'.info')
