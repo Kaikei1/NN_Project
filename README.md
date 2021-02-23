@@ -12,7 +12,7 @@ A working python environment should be installed on the machine used for this ta
 
 ### Data Preprocessing
 
-The data required for preprocessing should be in .conll format. 
+The data required for preprocessing should be in .conll format. Samples can be seen in [Example_files](https://github.com/Kaikei1/NN_Project/tree/main/example%20files)
 
 
 ## Deployment
