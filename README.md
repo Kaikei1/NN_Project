@@ -33,7 +33,7 @@ TBD
 
 ## Authors
 
-Kaikei1 $ Unkei1
+Kaikei1 & Unkei1
 
 ## License
 
