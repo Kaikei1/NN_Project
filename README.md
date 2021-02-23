@@ -12,9 +12,9 @@ What things you need to install the software and how to install them
 
 TBD
 
-### Installing
+### Data Preprocessing
 
-For running this project, please make sure to have a Python environment installed on your machine.
+
 
 
 ## Deployment
