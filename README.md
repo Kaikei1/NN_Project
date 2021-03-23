@@ -32,7 +32,7 @@ This one is built to run POS task using the pretrained bert-base-cased model on 
 
 ## Built With
 
-TBD
+Python using the huggingface/transformers library.
 
 ## Contributing
 
