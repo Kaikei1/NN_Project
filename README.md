@@ -34,9 +34,7 @@ This one is built to run POS task using the pretrained bert-base-cased model on 
 
 Python using the huggingface/transformers library.
 
-## Contributing
 
-TBD
 
 
 ## Authors
@@ -44,6 +42,4 @@ TBD
 Kaikei1 & Unkei1
 
 ## License
-
-University Saarland? 
 
