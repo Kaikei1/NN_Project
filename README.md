@@ -21,10 +21,13 @@ How to use:
 
 Input: .conll data (Error will be returned if it is the wrong datatype) and desired output name of the file. (E.g. you have nyt.conll and you want it to be named nyt_processed.tsv and nyt_processed.info after processing the data.)
 
+Given that you processed the data to a tsv file using the preprocessor.py, you can use the loading_script.py to load your data into a fitting format for run_ner.py to train your BERT model. 
+The loading script reads the tsv files and processes them into a dataframe, generating a .csv output.
+
 ## Deployment
 
 
-TBD
+Try running the run_complete.sh in [Example_files](https://github.com/Kaikei1/NN_Project/tree/main/example%20files). You might have to change the bash script, if you want to use different embeddings or accessing different directory's.
 
 ## Built With
 
