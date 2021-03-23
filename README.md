@@ -10,6 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 A working python environment should be installed on the machine used for this task. (Preferably latest version) 
 
+
 ### Data Preprocessing
 
 The data required for preprocessing should be in .conll format. Samples can be seen in [Example_files](https://github.com/Kaikei1/NN_Project/tree/main/example%20files)
@@ -21,7 +22,7 @@ How to use:
 
 Input: .conll data (Error will be returned if it is the wrong datatype) and desired output name of the file. (E.g. you have nyt.conll and you want it to be named nyt_processed.tsv and nyt_processed.info after processing the data.)
 
-Given that you processed the data to a tsv file using the preprocessor.py, you can use the loading_script.py to load your data into a fitting format for run_ner.py to train your BERT model. 
+Given that you processed the data into a tsv file using the preprocessor.py, you can use the loading_script.py to load your data into a fitting format for run_ner.py to train your BERT model. (NOTE: The names in loading_script.py are predefined and take no input. You might want to change the data you want to process, therefore you should change the path in the code.)
 The loading script reads the tsv files and processes them into a dataframe, generating a .csv output.
 
 ## Deployment
