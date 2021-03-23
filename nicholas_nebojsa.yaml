@@ -1,0 +1,39 @@
+name: nicholas_nebojsa
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - conda=4.9.2
+  - conda-build=3.10.5
+  - conda-package-handling=1.7.2
+  - conda-verify=3.4.2
+  - cudatoolkit=10.2.89
+  - json5=0.9.5
+  - jsonschema=3.2.0
+  - markupsafe=1.1.1
+  - matplotlib=3.3.4
+  - matplotlib-base=3.3.4
+  - msys2-conda-epoch
+  - numpy-base=1.19.2
+  - numpydoc=1.1.0
+  - pandas=1.1.5
+  - python-jsonrpc-server=0.4.0
+  - pytorch=1.7.1
+  - ujson=4.0.2
+  - unicodecsv=0.14.1
+  - pip:
+    - datasets==1.4.1
+    - dill==0.3.3
+    - fsspec==0.8.7
+    - huggingface-hub==0.0.2
+    - multiprocess==0.70.11.1
+    - numpy==1.19.5
+    - pip==21.0
+    - pyarrow==3.0.0
+    - sacremoses==0.0.43
+    - seqeval==1.2.2
+    - tokenizers==0.10.1
+    - tqdm==4.49.0
+    - transformers==4.3.3
+    - wget==3.2
+    - xxhash==2.0.0
