@@ -1,10 +1,13 @@
 import sys
 import argparse
+import os
 
 
 def extract_info(file,new_filename):
+    if not os.path.exists("output"):
+        os.makedirs("output")    
     with open(file) as f:
-        with open(new_filename,"w") as s:
+        with open("output/"+new_filename,"w") as s:
             for line in f:
                 if  line.isspace():                    
                     s.write('*\n')
@@ -22,7 +25,7 @@ def create_info_file(file,new_filename):
     sequence_ls = []
     n_words = 0
     sequence = []
-    with open(file) as f:
+    with open("output/"+file) as f:
         for line in f:
             if line[0]=='*':
                 if sequence != []:
@@ -42,7 +45,7 @@ def create_info_file(file,new_filename):
     num_seq = len(sequence_ls)
     for tag in tags:
         tags[tag] /= n_words
-    with open(new_filename,'w') as s:
+    with open("output/"+new_filename,'w') as s:
          s.write('Max sequence length: '+str(max_l)+'\n')
          s.write('Min sequnece length: '+str(min_l)+'\n')
          s.write('Mean sequnece length: '+str(mean_l)+'\n')
