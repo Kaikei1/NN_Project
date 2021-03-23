@@ -249,11 +249,8 @@ def main():
         return label_list
 
     label_list = get_label_list(datasets["train"][label_column_name])
-    print(label_list)
-    input()
     label_to_id = {l: i for i, l in enumerate(label_list)}
     print(label_to_id)
-    input()
     num_labels = len(label_list)
 
     # Load pretrained model and tokenizer
