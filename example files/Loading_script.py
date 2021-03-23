@@ -46,8 +46,14 @@ class DatasetPreprocessor():
     return set(self.dataset[3].to_list())
 	
 pr = DatasetPreprocessor("complete_data.tsv")
+prsample = DatasetPreprocessor("sample.tsv)
 
 train, test = pr.process()
-
-train.to_csv("sample.csv", index=False)
-test.to_csv("tsample.csv", index=False)
+train_sample, test_sample = prsample.process()
+			       
+train.to_csv("train.csv", index=False)
+test.to_csv("test.csv", index=False)
+train_sample.to_csv("train_sample.csv", index=False)
+test_sample.to_csv("test_sample.csv", index=False)			     
+			   
+			       
