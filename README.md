@@ -30,6 +30,7 @@ The loading script reads the tsv files and processes them into a dataframe, gene
 
 Try running the run_pos.sh in [Example_files](https://github.com/Kaikei1/NN_Project/tree/main/example%20files). You might have to change the bash script, if you want to use different embeddings or accessing different directory's.
 This one is built to run POS task using the pretrained bert-base-cased model on a single epoch.
+run_pos.sh executes run_ner.py and automatically passes the required arguments to run the training and evaluation.
 
 ## Built With
 
